@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="UTF-8">
+     <title>HTML5 Exercises</title>
+</head>
+<body>
+     <nav>
+         <ul>
+             <li><a href="#">Home Page</a></li>
+             <li><a href="#">Introduction</a></li>
+             <li><a href="#">Contact</a></li>
+             <li><a href="#">Fourth Section</a></li> <!-- Change the text for this li -->
+         </ul>
+     </nav>
+     <section id="favorite-foods">
+         <h2>Favorite Food</h2>
+         <ul>
+             <li>Bread</li>
+             <li>Sushi</li>
+             <li>Salad</li>
+             <li>Pizza</li>
+         </ul>
+     </section>
+     <section id="achievements">
+         <h2>Achievements</h2>
+         <progress value="70" max="100">70%</progress>
+         <progress value="50" max="100">50%</progress>
+         <progress value="90" max="100">90%</progress>
+     </section>
+     <section id="more-about-me">
+         <h2>More About Me</h2>
+         <details>
+             <summary>Detailed Information</summary>
+             <p>This is detailed information about me.</p>
+         </details>
+     </section>
+     <img src="http://intro-webdesign.com/image.jpg" alt="Illustration image">
+     <a href="http://intro-webdesign.com">Link to intro-webdesign</a>
+</body>
+</html>
